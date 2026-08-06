@@ -25,7 +25,7 @@ public:
                         left++;
 
                     // BUG HERE ↓
-                    while (left < right && nums[right] == nums[right - 1])
+                    while (left < right && nums[right] == nums[right + 1])
                         right--;
                 }
                 else if (sum < 0) {
