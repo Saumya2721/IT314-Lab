@@ -24,7 +24,7 @@ public:
                     while (left < right && nums[left] == nums[left - 1])
                         left++;
 
-                    // BUG HERE ↓
+                    // FIXED BUG HERE ↓
                     while (left < right && nums[right] == nums[right + 1])
                         right--;
                 }
