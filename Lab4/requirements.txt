@@ -1,0 +1,7 @@
+langchain
+langgraph
+typing
+langchain_google_genai
+langchain_core
+langchain_groq
+dotenv
